@@ -1,0 +1,31 @@
+/* .otp {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+ */
+ .inputs input {
+    width: 5rem !important;
+    height: 5rem !important;
+  }
+
+  
+@media (max-width: 768px) {
+    
+    .inputs input {
+        width: 3.6rem !important;
+        height: 3.6rem !important;
+      }
+}
+
+@media (max-width: 480px) {
+    .inputs input {
+        width: 2.4rem !important;
+        height: 2.4rem !important;
+      }
+}
+
+  
